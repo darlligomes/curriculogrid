@@ -8,6 +8,7 @@
     font-family: 'Unbounded', cursive;
     transition:ease-in 0.2s;
     
+    
 }
     :root{
         
@@ -19,7 +20,6 @@
         font-family: 'Unbounded', cursive;
        overflow: hidden;
        --shadow: #32323238;
-       
     }
 
     .dark{
@@ -117,19 +117,24 @@
     font-size: 2.4rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   
    }
+  
 
    #social-links a{
     padding: 1.6rem;
+    border-radius: 100%;
+    justify-content: center;
     
   color: var(--text1color);
     
-    border-radius: 50%;
+   
    }
   
    #social-links a:hover{
     background-color: var(--emphasiscolor);
+     
     }
   
    
